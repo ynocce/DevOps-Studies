@@ -79,7 +79,7 @@
             
             2 - Selecione o um agent (nesse caso selecionamos o Default)
             
-            ![Untitled](Azure DevOps/Azure DevOps Azure%20DevOps%20061a091bddf441a7bb96c25b163bba9b/Untitled.png)
+            ![Untitled](img/Untitled.png)
             
             3 - Depois Clique em New agent e Download 
             

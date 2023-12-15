@@ -1,8 +1,12 @@
 # Azure DevOps
 
+[Projetos Azure DevOps](https://www.notion.so/Projetos-Azure-DevOps-eb2217bcc320457da3f94840c0b1e733?pvs=21)
+
 - **O que é o Azure DevOps?**
     
     é um produto da Microsoft que fornece controle de versão, geração de relatórios, gerenciamento de requisitos, gerenciamento de projetos, compilações automatizadas, testes e recursos de gerenciamento de versões.
+    
+    [O que é o Azure DevOps? - Azure DevOps](https://learn.microsoft.com/pt-br/azure/devops/user-guide/what-is-azure-devops?view=azure-devops)
     
     No DevOps podemos automatizar:
     
@@ -51,6 +55,8 @@
         agent pool - é o conjunto de agent builds
         
         é uma ferramenta instalada em um servidor que sera responsavel pela execução de build e deploy.
+        
+        [Deploy an Azure Pipelines agent on Linux - Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/linux-agent?view=azure-devops)
         
         - Agentes Hosted
             
@@ -140,7 +146,7 @@
         - Somente leitura
         - Geradas automaticamente pelo Azure DevOps
         
-        Criar variaveis nas pipelines do AD: $(valor da variavel) , exemplo: $(Build.DefinitionName)
+        Criar variaveis nas pipelines do AD: **$(valor da variavel)** , exemplo: **$(Build.DefinitionName)**
         
     - Criando uma Pipeline [YAML](https://www.notion.so/YAML-78f94a3493d24be0b11b1a91053425cc?pvs=21)
         

@@ -73,7 +73,11 @@
             
             2 - Selecione o um agent (nesse caso selecionamos o Default)
             
+<<<<<<< HEAD
             ![Untitled](imagens/Untitled.png)
+=======
+            ![Untitled](img/Untitled.png)
+>>>>>>> 146ec441f5d4c9a9317ff065ca06e1eefe221433
             
             3 - Depois Clique em New agent e Download 
             

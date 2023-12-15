@@ -77,13 +77,13 @@
             
             2 - Selecione o um agent (nesse caso selecionamos o Default)
             
-            ![Untitled](img/Untitled.png)
+            ![Untitled](Azure DevOps/img/Untitled.png)
             
             3 - Depois Clique em New agent e Download 
             
             Nota: Nesse caso vamos baixar o do Windows (certifique-se seu sistema é x64 ou x86)
             
-            ![Untitled](img/Untitled%201.png)
+            ![Untitled](Azure DevOps/img/Untitled%201.png)
             
             4 - Abra o PowerShell e coloque os comandos abaixo:
             
@@ -105,11 +105,11 @@
             
             6 - Agora ele vai pedir uma altenticação PAT e aperte Enter.
             
-            ![Untitled](img/Untitled%202.png)
+            ![Untitled](Azure DevOps/img/Untitled%202.png)
             
             7 - Vá para o Azure DevOps → User settings → Personal access tokens.
             
-            ![Untitled](img/Untitled%203.png)
+            ![Untitled](Azure DevOps/img/Untitled%203.png)
             
             8 - Clique em New token
             
@@ -119,7 +119,7 @@
             4. Selecione o escopo do build, se é de Full Access ou customizado
             5. Clique em Criar
             
-            ![Untitled](img/Untitled%204.png)
+            ![Untitled](Azure DevOps/img/Untitled%204.png)
             
             9 - Após criar o Token e copiar, vá para o PowerShell e cole o token gerado:
             
@@ -127,7 +127,7 @@
             2. Nas proximas opção iremos colocar todos Y, para seguir com a criação do agent
             3. Pronto nosso agent está criado e autenticado.
             
-            ![Untitled](img/Untitled%205.png)
+            ![Untitled](Azure DevOps/img/Untitled%205.png)
             
         - Instalando um Build Agent no Linux como Serviço
             
@@ -154,27 +154,27 @@
         
         2 - Clique em Create Pipeline.
         
-        ![Untitled](img/Untitled%206.png)
+        ![Untitled](Azure DevOps/img/Untitled%206.png)
         
         3 - Depois escolha como você deseja criar seu pipeline, yaml ou Editor Classico. Nesse caso vamos criar apartir do nosso repos criado no DevOps.
         
-        ![Untitled](img/Untitled%207.png)
+        ![Untitled](Azure DevOps/img/Untitled%207.png)
         
         4 - Agora selecione o repos aonde está seu código.
         
-        ![Untitled](img/Untitled%208.png)
+        ![Untitled](Azure DevOps/img/Untitled%208.png)
         
         5 - Após clicar no repos, ele mostra templates pra você criar sua Pipeline (de acordo com o codígo no repos)
         6 - Pode usar templates, criar um [YAML](https://www.notion.so/YAML-78f94a3493d24be0b11b1a91053425cc?pvs=21) do zero ou usar um [YAML](https://www.notion.so/YAML-78f94a3493d24be0b11b1a91053425cc?pvs=21) já existente. 
         
         7- E clicamos no template  **ASP.net**
         
-        ![Untitled](img/Untitled%209.png)
+        ![Untitled](Azure DevOps/img/Untitled%209.png)
         
         8 - Pronto, nossa Pipeline Yaml está criada.
         9 - clique em Save.
         
-        ![Untitled](img/Untitled%2010.png)
+        ![Untitled](Azure DevOps/img/Untitled%2010.png)
         
     - Criando uma Pipeline Classic Editor
         
@@ -185,9 +185,9 @@
         2 - Clique em Create Pipeline.
         3 - Depois escolha como você deseja criar seu pipeline, yaml ou Editor Classico. Nesse caso vamos criar por editor Classico
         
-        ![Untitled](img/Untitled%206.png)
+        ![Untitled](Azure DevOps/img/Untitled%206.png)
         
-        ![Untitled](img/Untitled%2011.png)
+        ![Untitled](Azure DevOps/img/Untitled%2011.png)
         
         4 - Podemos selecionar varios repos, Azure Repos, GitHub e etc. Mas nosso código está no Azure Repos.
         
@@ -197,12 +197,12 @@
         
         5 - E clicamos em continue
         
-        ![Untitled](img/Untitled%2012.png)
+        ![Untitled](Azure DevOps/img/Untitled%2012.png)
         
         6 - Podemos criar um Empty Job (um job em branco, sem nada) ou usar um template
         7 - Nesse caso vamos usar um template, **ASP.NET**
         
-        ![Untitled](img/Untitled%2013.png)
+        ![Untitled](Azure DevOps/img/Untitled%2013.png)
         
         8 - E assim está criado nosso build Classic Editor
         
@@ -212,11 +212,11 @@
         
         9 - Clique em Save & Queue
         
-        ![Untitled](img/Untitled%2014.png)
+        ![Untitled](Azure DevOps/img/Untitled%2014.png)
         
         10 - Pipeline finalizada
         
-        ![Untitled](img/Untitled%2015.png)
+        ![Untitled](Azure DevOps/img/Untitled%2015.png)
         
     - Integração Continua e Entrega Continua ( C.I and C.D )
         

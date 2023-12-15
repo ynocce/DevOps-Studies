@@ -1,7 +1,5 @@
 # Azure DevOps
 
-[Projetos Azure DevOps](https://www.notion.so/Projetos-Azure-DevOps-eb2217bcc320457da3f94840c0b1e733?pvs=21)
-
 - **O que é o Azure DevOps?**
     
     é um produto da Microsoft que fornece controle de versão, geração de relatórios, gerenciamento de requisitos, gerenciamento de projetos, compilações automatizadas, testes e recursos de gerenciamento de versões.
@@ -136,7 +134,7 @@
             
     - Definição de build Azure DevOps
         
-        Pode ser Feito por [YAML](https://www.notion.so/YAML-78f94a3493d24be0b11b1a91053425cc?pvs=21) ou editor Classico
+        Pode ser Feito por YAML ou editor Classico
         
     - Variaveis e Grupos de Variaveis
         
@@ -148,7 +146,7 @@
         
         Criar variaveis nas pipelines do AD: **$(valor da variavel)** , exemplo: **$(Build.DefinitionName)**
         
-    - Criando uma Pipeline [YAML](https://www.notion.so/YAML-78f94a3493d24be0b11b1a91053425cc?pvs=21)
+    - Criando uma Pipeline YAML
         
         Primeiro acessamos o Azure DevOps.
         
@@ -167,7 +165,7 @@
         ![Untitled](imagens/Untitled%208.png)
         
         5 - Após clicar no repos, ele mostra templates pra você criar sua Pipeline (de acordo com o codígo no repos)
-        6 - Pode usar templates, criar um [YAML](https://www.notion.so/YAML-78f94a3493d24be0b11b1a91053425cc?pvs=21) do zero ou usar um [YAML](https://www.notion.so/YAML-78f94a3493d24be0b11b1a91053425cc?pvs=21) já existente. 
+        6 - Pode usar templates, criar um YAML do zero ou usar um YAML já existente. 
         
         7- E clicamos no template  **ASP.net**
         
@@ -237,6 +235,4 @@
         
     - Como criar uma Release (C.D)
         
-        [Como criar uma Release e fazer Deploy em um App Service.](https://www.notion.so/Como-criar-uma-Release-e-fazer-Deploy-em-um-App-Service-cd57e244275e40c692e55fa2f8fb6315?pvs=21)
-        
-        [**Link no Github**](https://github.com/ynocce/Az-DevOps-Projeto-1)
+        [Como criar uma Release e fazer Deploy em um App Service.](https://github.com/ynocce/Az-DevOps-Projeto-1)
